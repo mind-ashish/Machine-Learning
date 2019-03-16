@@ -1,0 +1,22 @@
+1. Make a folder in pc. Make a Jupiter notebook(blank) in it. Also download and save 
+all dataset files in it. Also save a blank Solutions.csv file in it.
+2.Upload this folder on google drive
+3.Now open google colab.
+4.click on file-> open notebook->open from gdrive-> it will automatically locate all Jupiter notebooks in ur google drive irrespective of loc/folder.
+5.Open this & start working.Now whatever u write will change Jupiter notebook present in ur drive ,uploaded in that folder.
+6.Still since we are in standalone file. To use other files like dataset present in that folder , we need to move to position of folder.
+7.For that write in opened notebook:
+from google.colab import drive
+drive.mount('/content/drive')
+ These 2 commands will open/access ur drive in folder view
+U can even see files/folder present by.  
+!ls
+And change loc to that folder by
+cd "/content/drive/My Drive"
+Now suppose the folder u uploaded in drive has name 0000000000002714_readme_Cifar10"
+cd "0000000000002714_readme_Cifar10".   #to again change loc to req folder in ur drive.
+Now u are in right location and code as usual.
+8.Finally save changes these are saved in notebook of drive.
+9.Drive this entire folder from drive to computer & submit its notebook & sole.csv easily.
+10 . It will ask for authentication after step 7
+Click on url shown & click allow. Copy code generated and paste in where asked.
