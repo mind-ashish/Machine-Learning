@@ -4,7 +4,7 @@ all dataset files in it. Also save a blank Solutions.csv file in it.
 3.Now open google colab.
 4.click on file-> open notebook->open from gdrive-> it will automatically locate all Jupiter notebooks in ur google drive irrespective of loc/folder.
 5.Open this & start working.Now whatever u write will change Jupiter notebook present in ur drive ,uploaded in that folder.
-6.Still since we are in standalone file. To use other files like dataset present in that folder , we need to move to position of folder.
+6.Still since we are in standalone file. To use other files like dataset present in that folder , we need to move to position of folder.(no need of this, simple write import and mount command)
 7.For that write in opened notebook:
 from google.colab import drive
 drive.mount('/content/drive')
